@@ -1,0 +1,18 @@
+Purpose:
+The goal of this assigment is to create a simple MINIX shell program, which allows the user to run other programs by usage of commands.
+
+Assumptions:
+1. The program is run in a MINIX environment
+2. Input is by usage of keyboard and printed in the console.
+
+Data:
+All data is to be provided by user input in the command line.
+
+Operations:
+The main system calls to be used are execvp(), fork(), exit(), and wait(). execvp allows a shell command to be run, whereas fork will develop a child process to be used. The other two are self explanatory.
+[ > < | ] commands:
+These three symbols are commands which are output, input, and piping respectively.
+For the actual process behind using them, they will use the existing 4 calls as well as  close() and dup(). Pipe will exclusively use pipe() as well as the previous two calls.
+
+Algorithms:
+No algorithms were used.

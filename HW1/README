@@ -1,0 +1,20 @@
+README
+Alan Hsueh (athsueh@ucsc.edu)
+MengJie Li (mli55@ucsc.edu)
+
+Files in directory:
+-lex.l
+-myshell.c
+-Makefile
+-design.txt
+-README
+
+Usage:
+Before running, make sure that a MINIX environment is being used to compile the program. Next, simply run [make all] in the console.
+After that, the shell can be run by calling [./myshell] in the terminal.
+
+It uses 
+
+[make clean] can be called to delete the .o files.
+
+
